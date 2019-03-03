@@ -108,10 +108,8 @@ void Date :: displayResult(void){
 //==============================main function======================================
 
 int main(){
-	int d1, m1, y1, d2, m2, y2;
 	Date mydate;
 	mydate.getDate();
-	mydate.date(d1, m1, y1, d2, m2, y2);
 	mydate.displayResult();
 	
 	return 0;
